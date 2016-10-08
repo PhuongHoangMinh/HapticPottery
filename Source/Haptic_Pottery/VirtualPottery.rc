@@ -1,0 +1,169 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON                    "Icon\\Main.ico"
+IDI_MAIN_S              ICON                    "Icon\\Main_s.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_NEW                 BITMAP                  "Image\\ButtonNew.bmp"
+IDB_LOAD                BITMAP                  "Image\\ButtonLoad.bmp"
+IDB_SAVE                BITMAP                  "Image\\ButtonSave.bmp"
+IDB_STATUSTOP           BITMAP                  "Image\\StatusTop.bmp"
+IDB_BOTTOM              BITMAP                  "Image\\Bottom.bmp"
+IDB_DOWN                BITMAP                  "Image\\ButtonDown.bmp"
+IDB_UP                  BITMAP                  "Image\\ButtonUp.bmp"
+IDB_COMBOPENALTY        BITMAP                  "Image\\ComboPenalty.bmp"
+IDB_HIPLEFT             BITMAP                  "Image\\HIPLeft.bmp"
+IDB_HIPTOP              BITMAP                  "Image\\HIPTop.bmp"
+IDB_KEYBOARD            BITMAP                  "Image\\Keyboard.bmp"
+IDB_POTTERYLEFT         BITMAP                  "Image\\PotteryLeft.bmp"
+IDB_POTTERYTOP          BITMAP                  "Image\\PotteryTop.bmp"
+IDB_STATUSLEFT          BITMAP                  "Image\\StatusLeft.bmp"
+IDB_ANIPENALTY          BITMAP                  "Image\\AniPenalty.bmp"
+IDB_ANICOMBO            BITMAP                  "Image\\AniCombo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NEW DIALOGEX 0, 0, 203, 169
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "New Pottery"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Resolution",IDC_STATIC,7,7,189,112
+    CONTROL         "18,000 elements [Vertical : 100 / Horizontal : 180]",
+                    IDC_RADIOTYPE1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,12,
+                    18,181,8
+    CONTROL         "36,000 elements [Vertical : 200 / Horizontal : 180]",
+                    IDC_RADIOTYPE2,"Button",BS_AUTORADIOBUTTON,12,30,181,8
+    CONTROL         "72,000 elements [Vertical : 200 / Horizontal : 360]",
+                    IDC_RADIOTYPE3,"Button",BS_AUTORADIOBUTTON,12,42,181,8
+    CONTROL         "72,000 elements [Vertical : 400 / Horizontal : 180]",
+                    IDC_RADIOTYPE4,"Button",BS_AUTORADIOBUTTON,12,54,181,8
+    CONTROL         "144,000 elements [Vertical : 400 / Horizontal : 360]",
+                    IDC_RADIOTYPE5,"Button",BS_AUTORADIOBUTTON,12,66,181,8
+    CONTROL         "288,000 elements [Vertical : 400 / Horizontal : 720]",
+                    IDC_RADIOTYPE6,"Button",BS_AUTORADIOBUTTON,12,78,181,8
+    CONTROL         "288,000 elements [Vertical : 800 / Horizontal : 360]",
+                    IDC_RADIOTYPE7,"Button",BS_AUTORADIOBUTTON,12,90,181,8
+    CONTROL         "576,000 elements [Vertical : 800 / Horizontal : 720]",
+                    IDC_RADIOTYPE8,"Button",BS_AUTORADIOBUTTON,12,102,181,8
+    LTEXT           "Height :",IDC_STATIC,7,126,27,8
+    DEFPUSHBUTTON   "OK",IDOK,7,148,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,146,148,50,14
+    EDITTEXT        IDC_EDITHEIGHT,36,125,24,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "",IDC_SPINHEIGHT,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,59,125,10,12
+    LTEXT           "Radius :",IDC_STATIC,103,126,26,8
+    EDITTEXT        IDC_EDITRADIUS,133,125,24,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "",IDC_SPINRADIUS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,157,125,10,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_NEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
